@@ -16,15 +16,15 @@ Picture this: It's a dark and stormy Friday afternoon when all of the sudden, th
 
 After scouring the interwebz for answers, I found this PHP extension called [Xdebug](http://xdebug.org/download.php). Xdebug is a PHP extension designed to assist in debugging and profiling PHP code. It comes packaged with breakpoints, variable peeking and watching. It even supports debugging remotely. "This is perfect!", I thought, "I can install this and debug server code on my desktop!" Those of you who know Xdebug have probably already tried this, and are thinking "No, Wass. Don't bother. We've all tried it, and it's just too much of a pain to get around the port forwarding and the firewall." However, I tried anyway. And guess what??
 
-[![nppoutput]({{ site.url }}/images/reqeng/nppoutput.png?w=287)]({{ site.url }}/images/reqeng/nppoutput.png)  
-**_I SUCCEEDED!_**
+[![nppoutput]({{ site.url }}/images/nppoutput.png?w=287)]({{ site.url }}/images/nppoutput.png)  
+***I SUCCEEDED!***
 
 And now, I shall share my knowledge and my setup:  
  So, basically, I've connected Xdebug on the server to Notepad++ on the desktop using ssh remote port forwarding. [This article](http://csce.uark.edu/~kal/info/private/ssh/ch09_02.htm) goes in depth about port forwarding, and the difference between the local and remote variants. Using remote forwarding, I've linked port 9000 on the server with port 9000 on the client tunneling through the ssh port 22; this entirely bypasses the RIS Firewall and its address translation. I use PuTTY to tunnel the port, but any SSH client with remote port forwarding will do the trick.  
 Here is the ssh command:  
 `ssh -R 9000:localhost:9000 ServerName`  
 Here is a screenshot of the tunnel configuration:  
-[![puttycfg]({{ site.url }}/images/reqeng/puttycfg.png)]({{ site.url }}/images/reqeng/puttycfg.png)  
+[![puttycfg]({{ site.url }}/images/puttycfg.png)]({{ site.url }}/images/puttycfg.png)  
 In essence, what this does is it listens on the server's port 9000 and redirects any traffic on that port to localhost:9000\. It's a little confusing, but in this context localhost refers to the _client_, not the server.
 
 * * *
@@ -32,7 +32,7 @@ In essence, what this does is it listens on the server's port 9000 and redirects
 ###Server Side###  
 Now, let's talk server requirements: Gotta get Xdebug. `yum install php-pecl-xdebug` should do the trick, or you can just pecl it. Go [here](http://xdebug.org/docs/install) for more info. Since Xdebug is a PHP Module, you can verify that it is correctly installed by running `php -m` on your server terminal. If Xdebug appears in _both_ [PHP Modules] and [Zend Modules] You're in good shape! Next step is to verify that Xdebug is set up and working in your php.ini file.  
 Make sure these lines are in there:
-{% highlight php linenos startinline %}
+{% highlight php startinline %}
 xdebug.remote_enable=1
 xdebug.remote_handler="dbgp"
 xdebug.remote_host=127.0.0.1

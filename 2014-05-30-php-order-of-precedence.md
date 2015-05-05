@@ -13,7 +13,8 @@ tags:
 excerpt: "I've run into a couple of interesting PHP features, mainly concerning order of precedence:"
 ---
 
-I've run into a couple of interesting PHP <span style="text-decoration:line-through;">bugs</span> features, mainly concerning order of precedence:
+I've run into a couple of interesting PHP ~~bugs~~
+features, mainly concerning order of precedence:
 
 ## The tl;dr version:
 

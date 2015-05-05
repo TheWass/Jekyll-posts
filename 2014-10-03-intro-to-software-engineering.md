@@ -32,7 +32,7 @@ The poet writes, the singer sings, the artist paints, the programmer codes.
 
 The difference? When a painter paints a mistake, they can paint around it, and still make it beautiful. The singer can embellish a mistake. When a programmer makes an error, the program dies. Artists can cheat. Programmers cannot. We must be perfect. People will be using and depending on what we write, and we depend on other programs to make ours work.
 
-Case in point: Debian 5.0: has around [324 million lines of code.](http://debian-counting.libresoft.es/lenny/index.php?menu=Statistics) That's ridiculous!
+Case in point: Debian 5.0: has around [324 million lines of code.](http://en.wikipedia.org/wiki/Source_lines_of_code#Example) That's ridiculous!
 Assuming 50 lines per page, there are 6.5 million pages. That stack of pages would be taller than a 30 floor building!
 Assuming 5 words per line at 50 words per minute, it would take one person 61 years to write!
 Oh, and that code has to work.
@@ -69,4 +69,5 @@ There are four stages to manage software complexity:
 4. Rigorously test the software system for bugs.
     - Software verification
 
-In the next couple of posts, I will be covering the second stage, requirements engineering. Stay tuned!
+In the next couple of posts, I will be covering the second stage, requirements engineering. 
+[Stay tuned!](({% post_url 2014-10-08-requirements-engineering %})

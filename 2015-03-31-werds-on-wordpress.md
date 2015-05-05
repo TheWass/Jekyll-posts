@@ -1,7 +1,7 @@
 ---
 title: Werds on WordPress
 date: 2015-03-31 10:13:18 -04:00
-modified:
+modified: 2015-03-31
 
 categories:
 - Opinion

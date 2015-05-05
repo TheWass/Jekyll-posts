@@ -1,34 +1,14 @@
 ---
-layout: post
 title: 'Iterations: ''for'' or ''foreach''?'
-date: 2015-02-04 16:42:56.000000000 -05:00
+date: 2015-02-04 16:42:56 -05:00
+modified: 2015-02-04
+
 categories:
 - PHP
 tags:
 - Code Tricks
 - PHP
-status: publish
-type: post
-published: true
-meta:
-  _wpcom_is_markdown: '1'
-  _edit_last: '82057723'
-  _publicize_pending: '1'
-  geo_public: '0'
-  _wpas_skip_facebook: '1'
-  _wpas_skip_google_plus: '1'
-  _wpas_skip_twitter: '1'
-  _wpas_skip_linkedin: '1'
-  _wpas_skip_tumblr: '1'
-  _wpas_skip_path: '1'
-author:
-  login: d35ruct0
-  email: lord.d35ruct0@gmail.com
-  display_name: The Wass
-  first_name: ''
-  last_name: ''
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
+
 ---
 Those of you who first learned programming (me included) probably started learning with C++ or Java. And with these languages, iteration is typically done with `while` or `for` loops. The `foreach` construct is used for specific object classifications. As you might expect, these constructs may not operate in the same manner. Let me share with you the similarities and differences between `while`, `for`, and `foreach`.
 
@@ -71,7 +51,7 @@ This:
 for (assignment; condition; increment) {
     body
 }
-
+{% endhighlight %}
 Changes to this:  
 {% highlight php startinline %}
 assignment;

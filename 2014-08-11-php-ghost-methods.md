@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PHP Ghost Methods"
-date: 2014-08-11 20:22:55 -04:00
+date: 2014-08-11 20:22:55
 modified: 2015-02-04
 
 categories:
@@ -14,12 +14,6 @@ tags:
 
 ---
 This is part two of three in the PHP Meta-Programming series. This part discusses the remainder of PHP's Magic Methods; what I have termed 'ghost' methods and parameters.
-Click below for the other parts of the series.
-
-*   [Magic Methods]({% post_url 2014-08-05-php-meta-programming %})
-*   [Ghost Methods]({% post_url 2014-08-11-php-ghost-methods %})
-*   [Misc. Coding Techniques]({% post_url 2014-08-11-php-coding-techniques %})
-*   [Final Thoughts]({% post_url 2014-08-19-final-thoughts %})
 
 * * *
 

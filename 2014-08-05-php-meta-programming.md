@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PHP Meta-Programming"
-date: 2014-08-05 20:11:26 -04:00
+date: 2014-08-05 20:11:26
 modified: 2015-04-17
 
 categories:
@@ -31,13 +31,6 @@ make code look a little nicer.
 Most of these functions were added for PHP version 5.3.
 I'll assume you're working with version 5.3.27 or higher.
 Exceptions will be noted.
-
-Table of Contents:
-
-*   [Magic Methods]({% post_url 2014-08-05-php-meta-programming %})
-*   [Ghost Methods]({% post_url 2014-08-11-php-ghost-methods %})
-*   [Misc. Coding Techniques]({% post_url 2014-08-11-php-coding-techniques %})
-*   [Final Thoughts]({% post_url 2014-08-19-final-thoughts %})
 
 * * *
 

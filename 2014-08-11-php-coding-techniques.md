@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PHP Coding Techniques"
-date: 2014-08-11 20:26:45 -04:00
+date: 2014-08-11 20:26:45
 modified: 2014-11-21
 
 categories:
@@ -18,12 +18,6 @@ I thought I was almost done, then I found something else that was just too Wasso
 I really should trademark that term...
 
 This is part 3 of a series on PHP Meta-Programming.
-Click below for the other parts of the series.
-
-*   [Magic Methods]({% post_url 2014-08-05-php-meta-programming %})
-*   [Ghost Methods]({% post_url 2014-08-11-php-ghost-methods %})
-*   [Misc. Coding Techniques]({% post_url 2014-08-11-php-coding-techniques %})
-*   [Final Thoughts]({% post_url 2014-08-19-final-thoughts %})
 
 As a reminder, these techniques work in PHP version 5.3.27 or newer.
 Your mileage may vary on older versions.

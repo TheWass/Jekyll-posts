@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PHP Arrays"
-date: 2014-07-31 16:34:17 -04:00
+date: 2014-07-31 16:34:17
 modified: 2015-02-04
 
 categories:

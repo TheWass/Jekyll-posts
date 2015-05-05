@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Requirements Engineering
-date: 2014-10-08 14:40:02 -04:00
+date: 2014-10-08 14:40:02
 modified: 2014-12-17
 
 categories:

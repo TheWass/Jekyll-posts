@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Petri Net Analysis
-date: 2015-02-02 15:11:56 -05:00
+date: 2015-02-02 15:11:56
 modified: 2015-02-04
 
 categories:

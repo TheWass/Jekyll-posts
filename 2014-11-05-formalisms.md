@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Formalisms
-date: 2014-11-05 15:03:49 -05:00
+date: 2014-11-05 15:03:49
 modified: 2014-12-17
 
 categories:

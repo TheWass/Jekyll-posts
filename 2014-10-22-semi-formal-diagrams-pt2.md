@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Semi-Formal Diagrams pt2
-date: 2014-10-22 14:58:39 -04:00
+date: 2014-10-22 14:58:39
 modified: 2014-12-17
 
 categories:

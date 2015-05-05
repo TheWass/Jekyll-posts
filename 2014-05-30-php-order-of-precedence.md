@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PHP: Order of Precedence"
-date: 2014-05-30 20:06:47 -04:00
+date: 2014-05-30 20:06:47
 modified: 2014-09-15
 
 categories:
@@ -13,8 +13,7 @@ tags:
 
 excerpt: "I've run into a couple of interesting PHP features, mainly concerning order of precedence:"
 ---
-
-I've run into a couple of interesting PHP ~~bugs~~
+I've run into a couple of interesting PHP <strike>bugs</strike>
 features, mainly concerning order of precedence:
 
 ## The tl;dr version:

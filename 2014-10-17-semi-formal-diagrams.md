@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Semi-Formal Diagrams
-date: 2014-10-17 14:53:13 -04:00
+date: 2014-10-17 14:53:13
 modified: 2014-12-17
 
 categories:
@@ -54,13 +54,13 @@ Here's an example of a top level DFD:
 The top level is designed to show an overview of data (beer) flowing in and out of the system to each of the external entities. In this diagram, External entities are shown as boxes, processes are shown as boxes with rounded edges, and the data flow is shown by arrows. The kind of data is indicated by a label on the arrow.   
 You might have noticed that the bartender is missing entirely from this diagram. This is because the bartender is _not_ external to the system. The bartender acts as the data transformation agent that, for instance, takes a beer order and transforms it into beer. Basically, the bartender controls the bar, in the same way a programer controls a computer.
 
-[![dataflow1]({{ site.url }}/images/reqeng/dataflow1.png?w=300)]({{ site.url }}/images/reqeng/dataflow1.png)
+[![dataflow1]({{ site.url }}/images/reqeng/dataflow1.png)]({{ site.url }}/images/reqeng/dataflow1.png)
 
 I like this diagram. Not only is it useful to both developers and non-technical personnel, but also the word "beer" appears 15 different times!  
  The mid level DFD breaks the top level down into sub-components, one for each major process within the system. You'll notice that the external entities are still there, and they are still sinking and sourcing the same data. This time, we can see where in the bar process each piece of data is being handled, and how it is being transformed.
 
 Now we'll take the Tap Beer process down to the bottom level:  
-[![dataflow2]({{ site.url }}/images/reqeng/dataflow2.png?w=300)]({{ site.url }}/images/reqeng/dataflow2.png)
+[![dataflow2]({{ site.url }}/images/reqeng/dataflow2.png)]({{ site.url }}/images/reqeng/dataflow2.png)
 
 Notice that the other processes become external data sources and sinks to process 2\. Since this diagram is only concerned with tapping beer, the other processes become data providers. At this level, sub processes can only generate one output, However, multiple different data sinks are able to use that one output. This feature makes them very compatible to programming functions or methods. In fact, these sub processes are likely functions that would call other helping functions in order to complete the task; similar to how a main() function works in procedural programming. Therefore, the bottom level DFD is quite useful for developers and programmers working on the project, but it is too unnecessarily detailed for the non-technical stakeholder. They would not find this particular diagram as useful as the top level.  
  Each mid level process should have one bottom level diagram attached to it. This could mean that there is 5-10 bottom level diagrams for a single software system.
@@ -69,7 +69,7 @@ It is certainly possible to combine all of these into a single data flow diagram
 
 * * *
 
-Alright, this post has gone on long enough. I still have two more diagrams to go through. But, I'll save them for the next post. [Stay tuned!](({% post_url 2014-10-22-semi-formal-diagrams-pt2 %})
+Alright, this post has gone on long enough. I still have two more diagrams to go through. But, I'll save them for the next post. [Stay tuned!]({% post_url 2014-10-22-semi-formal-diagrams-pt2 %})
 
 * * *
 

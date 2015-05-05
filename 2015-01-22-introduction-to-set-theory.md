@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to Set Theory
-date: 2015-01-22 15:10:24 -05:00
+date: 2015-01-22 15:10:24
 modified: 2015-01-26
 
 categories: []

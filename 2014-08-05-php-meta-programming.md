@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "PHP Meta-Programming"
 date: 2014-08-05 20:11:26 -04:00
 modified: 2015-04-17

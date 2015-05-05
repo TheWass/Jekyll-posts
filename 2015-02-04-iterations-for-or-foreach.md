@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Iterations: ''for'' or ''foreach''?'
 date: 2015-02-04 16:42:56 -05:00
 modified: 2015-02-04

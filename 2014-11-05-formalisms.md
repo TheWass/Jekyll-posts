@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Formalisms
 date: 2014-11-05 15:03:49 -05:00
 modified: 2014-12-17

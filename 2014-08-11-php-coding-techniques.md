@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "PHP Coding Techniques"
 date: 2014-08-11 20:26:45 -04:00
 modified: 2014-11-21

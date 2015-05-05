@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Intro to Software Engineering
 date: 2014-10-03 14:31:38 -04:00
 modified: 2014-10-31

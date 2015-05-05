@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Comment Toggling"
 date: 2014-06-18 20:42:08 -04:00
 modified: 2015-02-27

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Firefox, Xdebug, Notepad++, and You!
 date: 2015-02-16 15:21:12 -05:00
 modified: 2015-02-17

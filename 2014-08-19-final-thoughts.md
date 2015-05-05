@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Final Thoughts
 date: 2014-08-19 20:32:01 -04:00
 modified: 2014-09-15

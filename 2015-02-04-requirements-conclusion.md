@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Requirements Conclusion
 date: 2015-02-04 15:15:11 -05:00
 modified: 2015-02-04

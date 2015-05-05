@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "PHP: Order of Precedence"
 date: 2014-05-30 20:06:47 -04:00
 modified: 2014-09-15

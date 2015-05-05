@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "PHP Ghost Methods"
 date: 2014-08-11 20:22:55 -04:00
 modified: 2015-02-04
